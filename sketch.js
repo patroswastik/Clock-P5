@@ -2,7 +2,7 @@ var hh,mm,ss,ms;
 var hh_angle,mm_angle,ss_angle;
 
 function setup(){
-  createCanvas(500,500);
+  createCanvas(window.innerWidth,window.innerHeight);
   angleMode(DEGREES);
 }
 
